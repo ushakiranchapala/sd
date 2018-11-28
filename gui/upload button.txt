@@ -1,0 +1,17 @@
+from tkinter import *
+
+root = Tk()
+
+root.title('Tech Wizards')
+
+root.geometry('{}x{}'.format(460, 350))
+
+def create_window():
+
+    window = Tk()
+
+    window.title("Create Swarm")
+
+    window.mainloop()
+
+root.mainloop()
